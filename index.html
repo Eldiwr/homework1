@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
                     <!--Шапка-->
@@ -12,56 +13,65 @@
         
         <nav>
 
-            <a href="">WebіStudio</a>
+            <a href="index.html" class="logo"><span class="logo-color-maine">Web</span><span class="logo-color-second">Studio</span></a>
 
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="site-nav">
+                <li><a href="" class="link-current">Студия</a></li>
+                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="" class="link">Контакты</a></li>
             </ul>
   
         </nav>
                     <!-- Контакты-->
-        <ul>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <ul class="contacts">
+            <li><a href="tel:+380961111111" class="contact-links">+38 096 111 11 11</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contact-links">info@devstudio.com</a></li>
         </ul>
-
-        <h1>Эффективные решения для вашего бизнеса</h1>
-
-        <a href="">Заказать услугу</a>
 
     </header>
                     <!--Уникальний контент-->
     <main>
-        <!--Soft skills-->
-        <section>
 
-            <h2>Логический заголовок</h2>
-            <ul>
+                    <!-- блок герой -->
+
+        <section class="hero">
+
+    <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+
+    <a href="" class="button">Заказать услугу</a>
+
+        </section>
+
+                    <!--Soft skills-->
+        <section class="section">
+
+            <h2 class="section-title">Softskills</h2>
+
+            <ul class="list-title">
                 <li>
-                    <h3>Внимание к деталям</h3>
+                    <h3 class="text-title">Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
+                    <h3 class="text-title">Пунктуальность</h3>
                     <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
+                    <h3 class="text-title">Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
+                    <h3 class="text-title">Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
  
         </section>
         <!--Деятельность фирмы-->
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
+        <section class="section">
+            <h2 class="text-title">Чем мы занимаемся</h2>
+
+            <ul class="list-title">
                 <li>
                     <a href="">
                         <img src="img/pr.jpg" alt="программирование" width="370">
@@ -80,51 +90,51 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </section class="section">
         <!--Команда-->
         <section>
 
-            <h2>Команда</h2>
-            <ul>
+            <h2 class="text-title">Команда</h2>
+
+            <ul class="list-title">
                 <li>
                     <img src="img/one.jpg" alt="Игорь Демьяненко" width="270">
-                    <h3>Игорь Демьяненко</h3>
+                    <h3 class="text-title">Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
                     <img src="img/two.jpg" alt="Ольга Репина" width="270">
-                    <h3>Ольга Репина</h3>
+                    <h3 class="text-title">Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
                     <img src="img/three.jpg" alt="Николай Тарасов" width="270">
-                    <h3>Николай Тарасов</h3>
+                    <h3 class="text-title">Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
                     <img src="img/four.jpg" alt="Михаил Ермаков" width="270">
-                    <h3>Михаил Ермаков</h3>
+                    <h3 class="text-title">Михаил Ермаков</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
 
-        </section>
+        </section class="section">
 
     </main>
                     <!--Подвал сайта-->
         <footer>
 
-            <a href="">WebStudio</a>
+            <a href="" class="logo"><span class="logo-color-maine">Web</span><span class="logo-colour-second">Studio</span></a>
 
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
 
-                    <!--Как правильно оформить, это же не однотипный контент, а контактные данные???-->
-            <ul>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <ul class="contacts">
+                <li><a href="tel:+380961111111" class="contact-links">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="contact-links">info@devstudio.com</a></li>
             </ul>
             
         </footer>
-  
+
 </body>
 </html>
