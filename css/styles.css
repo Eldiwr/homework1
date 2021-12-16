@@ -1,8 +1,8 @@
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --focus-text-color: #2196F3;
-    --hero-button-text-color: #FFFFFF;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --focus-text-color: #2196f3;
+  --hero-button-text-color: #ffffff;
 }
 
 /* основной цвет #757575*/
@@ -11,87 +11,91 @@
 /* цвет текста кнопки #FFFFFF */
 
 body {
-    background-color: #E5E5E5;
-    color: var(--primary-text-color);
-;
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
 }
 
 /* Text color */
 
 .hero {
-    color: var(--hero-button-text-color);
+  color: var(--hero-button-text-color);
 }
 
 .text-title {
-    color: var(--title-text-color);
-;
+  color: var(--title-text-color);
 }
 
-/* button colour */
+/* button`s */
 
-.button {
+/* .button {
     background: var(--focus-text-color);
     color: var(--hero-button-text-color);
+} */
+
+.button {
+    color: var(--title-text-color);
+
 }
 
 .button:hover,
 .button:focus {
-    color: var(--title-text-color);
-;
+  color: var(--hero-button-text-color);
 }
 
 /*Logo*/
 
+.logo {
+    color: var(--title-text-color);
+}
+
 .logo:hover,
 .logo:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 .logo-color-maine {
-    color: var(--focus-text-color);
+  color: var(--focus-text-color);
 }
 
 .logo-colour-second {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 /* Site-nav */
 .link:hover,
 .link:focus {
-    color: var(--focus-text-color);
+  color: var(--focus-text-color);
 }
 
 .link {
-    color: var(--title-text-color);
-;
+  color: var(--title-text-color);
 }
 
-.site-nav .link-current{
-    color: var(--focus-text-color);
-
+.site-nav .link-current {
+  color: var(--focus-text-color);
 }
 
 /*  Убранные стили списков */
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* Contacts links */
 
 .contact-links {
-    color: var(--title-text-color)
+  color: var(--title-text-color);
 }
 
 .contact-links:hover,
 :focus {
-    color: var(--focus-text-color)
+  color: var(--focus-text-color);
 }
 
 .address {
-    color: var(--hero-button-text-color);
+  color: var(--hero-button-text-color);
 }
 
-
-
-
+.section-title {
+    display: none;
+}
