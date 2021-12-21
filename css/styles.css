@@ -13,16 +13,52 @@
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-/* Text color */
+/* Hero */
 
-.hero {
+.hero-title {
   color: var(--hero-button-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.text-title {
+.hero-button {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+
+.hero-button:hover,
+:focus {
+  color: var(--hero-button-text-color);
+  background-color: var(--focus-text-color);
+}
+
+.text-title.comand {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* button`s */
@@ -34,18 +70,25 @@ body {
 
 .button {
     color: var(--title-text-color);
+    
+    
 
 }
 
 .button:hover,
 .button:focus {
   color: var(--hero-button-text-color);
+  background-color: var(--focus-text-color);
 }
 
 /*Logo*/
 
 .logo {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-family: 'Raleway', 'cursive';
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .logo:hover,
@@ -75,6 +118,13 @@ body {
   color: var(--focus-text-color);
 }
 
+.site-nav {
+  
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+}
+
 /*  Убранные стили списков */
 
 ul {
@@ -85,6 +135,10 @@ ul {
 
 .contact-links {
   color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 .contact-links:hover,
@@ -96,6 +150,25 @@ ul {
   color: var(--hero-button-text-color);
 }
 
+/* Section title */
 .section-title {
-    display: none;
+    display: none;   
+}
+
+.text-title-comand {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
 }
